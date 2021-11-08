@@ -1,58 +1,64 @@
 package com.epam.brest.model;
 
 public class Employee {
-  private Integer employeeId;
-  private String firstName;
-  private String lastName;
-  private String email;
-  private Double salary;
-  private Integer departmentId;
 
-  public Integer getEmployeeId() {
-    return employeeId;
-  }
+    private Integer employeeId;
 
-  public void setEmployeeId(Integer employeeId) {
-    this.employeeId = employeeId;
-  }
+    private String firstName;
 
-  public String getFirstName() {
-    return firstName;
-  }
+    private String lastName;
 
-  public void setFirstName(String firstName) {
-    this.firstName = firstName;
-  }
+    private String email;
 
-  public String getLastName() {
-    return lastName;
-  }
+    private Double salary;
 
-  public void setLastName(String lastName) {
-    this.lastName = lastName;
-  }
+    private Integer departmentId;
 
-  public String getEmail() {
-    return email;
-  }
+    public Integer getEmployeeId() {
+        return employeeId;
+    }
 
-  public void setEmail(String email) {
-    this.email = email;
-  }
+    public void setEmployeeId(Integer employeeId) {
+        this.employeeId = employeeId;
+    }
 
-  public Double getSalary() {
-    return salary;
-  }
+    public String getFirstName() {
+        return firstName;
+    }
 
-  public void setSalary(Double salary) {
-    this.salary = salary;
-  }
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
 
-  public Integer getDepartmentId() {
-    return departmentId;
-  }
+    public String getLastName() {
+        return lastName;
+    }
 
-  public void setDepartmentId(Integer departmentId) {
-    this.departmentId = departmentId;
-  }
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public Double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(Double salary) {
+        this.salary = salary;
+    }
+
+    public Integer getDepartmentId() {
+        return departmentId;
+    }
+
+    public void setDepartmentId(Integer departmentId) {
+        this.departmentId = departmentId;
+    }
 }
